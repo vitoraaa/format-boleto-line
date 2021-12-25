@@ -1,1 +1,3 @@
-﻿Console.WriteLine(args[0].Replace(" ","").Replace("-",""));
+﻿using Extensions;
+
+Console.WriteLine(args[0].Remove("-", " "));
